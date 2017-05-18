@@ -13,8 +13,8 @@ public class HelloServlet extends HttpServlet {
                          HttpServletResponse response)
             throws ServletException, IOException {
 
-        System.out.print("Hello Servlet");
+        System.out.print("Hello Jetty");
 
-        response.getWriter().println("Hello Servlet");
+        response.getWriter().println("Hello Jetty");
     }
 }

@@ -19,6 +19,7 @@ public class WebApp {
 
             WebAppContext context = new WebAppContext();
             context.setContextPath("/servlet");
+            System.out.println("web.xml path:"+WEB_XML_PATH);
             context.setDescriptor(WEB_XML_PATH); // 指定web.xml配置文件
             context.setResourceBase(BASE_PATH);// 指定webapp目录
             context.setParentLoaderPriority(true);
