@@ -34,3 +34,5 @@ public class WebApp {
         }
     }
 }
+
+//access http://localhost:8080/servlet/HelloServlet
